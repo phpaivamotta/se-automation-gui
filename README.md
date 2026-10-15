@@ -60,7 +60,3 @@ Things learned the hard way (also noted in the code):
   Edge instead.
 - Templates disagree on property names (`COMPANY ADDRESS` vs `COMPANY ADDRESS:`), so name matching
   ignores case and a trailing colon. If the templates change, update `titleblock.py`.
-
-The older one-off scripts in this folder (`main.py`, `pdf_print.py`, ...) are untouched and still
-work as before. The app replaces `main.py`, `update_properties.py`, `pdf_print.py` and
-`reorder_supports.py`.
